@@ -45,6 +45,9 @@
   overflow: hidden;
   overflow-x: scroll;
 }
+.section .images::-webkit-scrollbar {
+  display: none;
+}
 .section > .images img {
   object-fit: cover;
   object-position: center;
